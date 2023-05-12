@@ -1,24 +1,28 @@
 {
     "conversas": [
         {
-            "perguntas": ["oi", "olá", "eai"],
-            "resposta":  "Olá, me chamo Nessa tudo bem? Sou um robô de atendimento e estou aqui para lhe ajudar em seus estudos de programação. Como posso ajudar?"
+            "perguntas": ["oi", "ola", "eai"],
+            "resposta":  "Olá, Sou o robô de atendimento Nessa e estou aqui para te auxiliar em seus estudos de programação. Como posso ajudar?"
         },
         {
             "perguntas": ["bom dia"],
-            "resposta":  "Bom dia, me chamo Nessa tudo bem? Sou um robô de atendimento e estou aqui para lhe ajudar em seus estudos de programação. Como posso ajudar?"
+            "resposta":  "Bom dia, Sou o robô de atendimento Nessa e estou aqui para te auxiliar em seus estudos de programação. Como posso ajudar?"
         },
         {
             "perguntas": ["boa tarde"],
-            "resposta":  "Boa tarde, me chamo Nessa tudo bem? Sou um robô de atendimento e estou aqui para lhe ajudar em seus estudos de programação. Como posso ajudar?"
+            "resposta":  "Boa tarde, Sou o robô de atendimento Nessa e estou aqui para te auxiliar em seus estudos de programação. Como posso ajudar?"
         },
         {
             "perguntas": ["boa noite"],
-            "resposta":  "Boa noite, me chamo Nessa tudo bem? Sou um robô de atendimento e estou aqui para lhe ajudar em seus estudos de programação. Como posso ajudar?"
+            "resposta":  "Boa noite, Sou o robô de atendimento Nessa e estou aqui para te auxiliar em seus estudos de programação. Como posso ajudar?"
         },
         {
-            "perguntas": ["tem alguém aí?"],
-            "resposta":  "Tem sim. Eu sou a Nessa, um robô de atendimento e estou aqui para lhe ajudar em seus estudos de programação. Como posso ajudar?"
+            "perguntas": ["tem alguem ai?"],
+            "resposta":  "Tem sim. Eu sou a Nessa, um robô de atendimento e estou aqui para te auxiliar em seus estudos de programação. Como posso ajudar?"
+        },
+        {
+            "perguntas": ["oi nessa", "ola nessa", "eai nessa"],
+            "resposta":  "Olá, tudo bem? Como posso ajudar?"
         }
     ]
 }
