@@ -1,4 +1,5 @@
 from chatterbot import ChatBot
+from unidecode import unidecode
 
 CONFIANCA_MINIMA = 0.70
 
@@ -16,7 +17,8 @@ def iniciar():
 def executar_robo(robo):
     while True:
         entrada = input("Digite alguma coisa... \n")
-        resposta = robo.get_response(entrada.lower())
+        entrada_unidecode = unidecode(entrada)
+        resposta = robo.get_response(entrada_unidecode.lower())
         if resposta.confidence >= CONFIANCA_MINIMA:
             print(">>", resposta.text)
         else:

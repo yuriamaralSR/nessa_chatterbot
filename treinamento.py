@@ -1,10 +1,10 @@
+import json
 from chatterbot  import ChatBot
 from chatterbot.trainers import ListTrainer
-import json
 
 CONVERSAS = [
-    "conversas\saudacoes.json",
-    "conversas\informacoes_basicas.json"
+    "conversas/saudacoes.json",
+    "conversas/informacoes_basicas.json"
 ]
 
 def iniciar():
@@ -40,4 +40,4 @@ if __name__ == "__main__":
 
     conversas = carregar_de_conversas()
     if conversas:
-        treinar = treinar(treinador, conversas)
+        treinar(treinador, conversas)
