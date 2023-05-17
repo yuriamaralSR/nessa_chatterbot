@@ -39,6 +39,14 @@ def selecionar_comando(resposta):
         parametro_dividido = parametro.split()
         executou = atuar_modulo_buscar(resposta, parametro_dividido)
         return executou
+    if resposta == "doc_python":
+        ...
+    if resposta == "doc_java":
+        ...
+    if resposta == "doc_c++":
+        ...
+    if resposta == "vs_code":
+        ...
     if resposta:
         return resposta        
     
