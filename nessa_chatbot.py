@@ -1,6 +1,7 @@
 from difflib import SequenceMatcher
 from chatterbot import ChatBot
 from unidecode import unidecode
+from buscar import *
 
 CONFIANCA_MINIMA = 0.70
 
@@ -21,18 +22,25 @@ def comparar_mensagens(mensagem_digitada, mensagem_candidata):
 
 def selecionar_comando(resposta):
     executou = False
+    
     if resposta == "sobre":
         parametro = input("Digite sobre o que quer saber: ")
-            
+        print("\n")
+        parametro_dividido = parametro.split()
+        executou = atuar_modulo_buscar(resposta, parametro_dividido)
         return executou
     if resposta == "exercicio":
         parametro = input("Digite o tema do exercício: ")
-
+        parametro_dividido = parametro.split()
+        executou = atuar_modulo_buscar(resposta, parametro_dividido)
         return executou
-    if resposta == "video" or resposta == "tutorial":
+    if resposta in ("video", "tutorial"):
         parametro = input("Digite o tema do tutorial: ")
-        
+        parametro_dividido = parametro.split()
+        executou = atuar_modulo_buscar(resposta, parametro_dividido)
         return executou
+    if resposta:
+        return resposta        
     
     return print("Não encontrado. Tente novamente")
 
@@ -50,11 +58,11 @@ def iniciar():
 
 def executar_robo(robo):
     while True:
-        entrada = input("Digite alguma coisa... \n")
+        entrada = input(">> ")
         entrada_unidecode = unidecode(entrada)
         resposta = robo.get_response(entrada_unidecode.lower())
         if resposta.confidence >= CONFIANCA_MINIMA:
-            print(">>", resposta.text)
+            print(selecionar_comando(resposta.text))
         else:
             print("Infelizmente, ainda não sei responder isso")
             print("Pergunte outra coisa")

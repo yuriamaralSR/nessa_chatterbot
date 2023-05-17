@@ -1,7 +1,7 @@
 {
     "conversas": [
         {
-            "perguntas": ["gostaria de saber sobre uma coisa", "quero saber sobre uma coisa", "pesquise pra mim sobre", "me explique"],
+            "perguntas": ["gostaria de saber sobre uma coisa", "quero saber sobre uma coisa", "pesquise pra mim sobre", "me explique", "quero saber uma coisa"],
             "resposta": "sobre"
         },
         {
