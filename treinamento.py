@@ -5,7 +5,8 @@ from chatterbot.trainers import ListTrainer
 CONVERSAS = [
     "conversas/saudacoes.json",
     "conversas/informacoes_basicas.json",
-    "conversas/comandos_de_busca.json"
+    "conversas/comandos_de_busca.json",
+    "conversas/comandos_abrir.json"
 ]
 
 def iniciar():

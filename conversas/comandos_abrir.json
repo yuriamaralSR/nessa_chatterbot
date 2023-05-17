@@ -1,0 +1,20 @@
+{
+    "conversas": [
+        {
+            "perguntas": ["doc python", "documentacao python", "documentacao do python", "abra a documentacao do python", "abra pra mim a documentacao do python"],
+            "resposta": "doc_python"
+        },
+        {
+            "perguntas": ["doc java", "documentacao java", "documentacao do java", "abra a documentacao do java", "abra pra mim a documentacao do java"],
+            "resposta": "doc_java"
+        },
+        {
+            "perguntas": ["doc c++", "documentacao c++", "documentacao do c++", "abra a documentacao do c++", "abra pra mim a documentacao do c++"],
+            "resposta": "doc_c++"
+        },
+        {
+            "perguntas": ["code", "quero codar", "vscode", "quero colocar a mao na massa", "visual studio code", "abra o vscode", "abra pra mim o vscode"],
+            "resposta": "vs_code"
+        }
+    ]
+}
