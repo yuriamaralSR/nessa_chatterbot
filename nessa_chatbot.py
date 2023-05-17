@@ -19,6 +19,23 @@ def comparar_mensagens(mensagem_digitada, mensagem_candidata):
 
     return confianca
 
+def selecionar_comando(resposta):
+    executou = False
+    if resposta == "sobre":
+        parametro = input("Digite sobre o que quer saber: ")
+            
+        return executou
+    if resposta == "exercicio":
+        parametro = input("Digite o tema do exercício: ")
+
+        return executou
+    if resposta == "video" or resposta == "tutorial":
+        parametro = input("Digite o tema do tutorial: ")
+        
+        return executou
+    
+    return print("Não encontrado. Tente novamente")
+
 def iniciar():
     robo = ChatBot("Nessa Chatbot",
         read_only = True,
