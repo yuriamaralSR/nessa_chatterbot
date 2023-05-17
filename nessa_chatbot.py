@@ -2,6 +2,7 @@ from difflib import SequenceMatcher
 from chatterbot import ChatBot
 from unidecode import unidecode
 from buscar import *
+from abrir import  *
 
 CONFIANCA_MINIMA = 0.70
 
@@ -22,35 +23,45 @@ def comparar_mensagens(mensagem_digitada, mensagem_candidata):
 
 def selecionar_comando(resposta):
     executou = False
-    
+    parametro = ""
+
     if resposta == "sobre":
         parametro = input("Digite sobre o que quer saber: ")
         print("\n")
         parametro_dividido = parametro.split()
         executou = atuar_modulo_buscar(resposta, parametro_dividido)
-        return executou
-    if resposta == "exercicio":
+
+    elif resposta == "exercicio":
         parametro = input("Digite o tema do exercício: ")
         parametro_dividido = parametro.split()
         executou = atuar_modulo_buscar(resposta, parametro_dividido)
-        return executou
-    if resposta in ("video", "tutorial"):
+
+    elif resposta in ("video", "tutorial"):
         parametro = input("Digite o tema do tutorial: ")
         parametro_dividido = parametro.split()
         executou = atuar_modulo_buscar(resposta, parametro_dividido)
-        return executou
-    if resposta == "doc_python":
-        ...
-    if resposta == "doc_java":
-        ...
-    if resposta == "doc_c++":
-        ...
-    if resposta == "vs_code":
-        ...
-    if resposta:
-        return resposta        
-    
-    return print("Não encontrado. Tente novamente")
+
+    elif resposta == "doc_python":
+        parametro = "python"
+        executou = atuar_modulo_abrir(resposta, parametro)
+
+
+    elif resposta == "doc_java":
+        parametro = "java"
+        executou = atuar_modulo_abrir(resposta, parametro)
+
+    elif resposta == "doc_c++":
+        parametro = "c++"
+        executou = atuar_modulo_abrir(resposta, parametro)
+
+    elif resposta == "vs_code":
+        executou= atuar_modulo_abrir(resposta, parametro)
+
+    elif resposta:
+        return resposta
+
+    else:
+        return print("Não encontrado. Tente novamente")
 
 def iniciar():
     robo = ChatBot("Nessa Chatbot",
