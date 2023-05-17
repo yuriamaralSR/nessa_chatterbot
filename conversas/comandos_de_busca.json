@@ -1,0 +1,20 @@
+{
+    "conversas": [
+        {
+            "perguntas": ["gostaria de saber sobre uma coisa", "quero saber sobre uma coisa", "pesquise pra mim sobre", "me explique"],
+            "resposta": "sobre"
+        },
+        {
+            "perguntas": ["exercicio", "exercicios", "gostaria de um exercicio", "queria um exercicio", "me traga um exercio", "encontre um exercicio para mim"],
+            "resposta": "exercicio"
+        },
+        {
+            "perguntas": ["video", "videos", "gostaria de ver um video", "queria um video", "me traga um video", "encontre um video para mim"],
+            "resposta": "video"
+        },
+        {
+            "perguntas": ["tutorial", "tutoriais", "gostaria de ver um tutorial", "queria um tutorial", "me traga um tutorial", "encontre um tutorial para mim"],
+            "resposta": "tutorial"
+        }
+    ]
+}
