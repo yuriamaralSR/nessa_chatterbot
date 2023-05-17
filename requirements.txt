@@ -4,3 +4,5 @@ chatterbot_corpus==1.2.0
 pytz
 flask
 unidecode
+requests
+wikipedia
