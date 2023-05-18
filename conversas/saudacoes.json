@@ -2,19 +2,19 @@
     "conversas": [
         {
             "perguntas": ["oi", "ola", "eai"],
-            "resposta":  "Olá, Sou o robô de atendimento Nessa e estou aqui para te auxiliar em seus estudos de programação. Como posso ajudar?"
+            "resposta":  "Olá, sou o robô de atendimento Nessa e estou aqui para te auxiliar em seus estudos de programação. Como posso ajudar?"
         },
         {
             "perguntas": ["bom dia"],
-            "resposta":  "Bom dia, Sou o robô de atendimento Nessa e estou aqui para te auxiliar em seus estudos de programação. Como posso ajudar?"
+            "resposta":  "Bom dia, sou o robô de atendimento Nessa e estou aqui para te auxiliar em seus estudos de programação. Como posso ajudar?"
         },
         {
             "perguntas": ["boa tarde"],
-            "resposta":  "Boa tarde, Sou o robô de atendimento Nessa e estou aqui para te auxiliar em seus estudos de programação. Como posso ajudar?"
+            "resposta":  "Boa tarde, sou o robô de atendimento Nessa e estou aqui para te auxiliar em seus estudos de programação. Como posso ajudar?"
         },
         {
             "perguntas": ["boa noite"],
-            "resposta":  "Boa noite, Sou o robô de atendimento Nessa e estou aqui para te auxiliar em seus estudos de programação. Como posso ajudar?"
+            "resposta":  "Boa noite, sou o robô de atendimento Nessa e estou aqui para te auxiliar em seus estudos de programação. Como posso ajudar?"
         },
         {
             "perguntas": ["tem alguem ai?"],
