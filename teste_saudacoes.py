@@ -7,7 +7,7 @@ class TesteSaudacoes(unittest.TestCase):
         self.robo = iniciar()
 
     def testar_oi_ola_eai(self):
-        saudacoes = ["oi", "ola", "eai"]
+        saudacoes = ["oi", "olá", "eai"]
 
         for saudacao in saudacoes:
             print(f"testando saudação {saudacao}")
@@ -70,8 +70,6 @@ class TesteSaudacoes(unittest.TestCase):
                 saudacao + ", sou o robô de atendimento Nessa e estou aqui para te auxiliar em seus estudos de programação. Como posso ajudar?",
                 resposta.text
             )
-
-
 
 if __name__ == "__main__":
     carregador = unittest.TestLoader()
