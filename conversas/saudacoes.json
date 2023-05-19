@@ -1,7 +1,7 @@
 {
     "conversas": [
         {
-            "perguntas": ["oi", "ola", "eai"],
+            "perguntas": ["oi", "olá", "eai"],
             "resposta":  "Olá, sou o robô de atendimento Nessa e estou aqui para te auxiliar em seus estudos de programação. Como posso ajudar?"
         },
         {
@@ -17,11 +17,11 @@
             "resposta":  "Boa noite, sou o robô de atendimento Nessa e estou aqui para te auxiliar em seus estudos de programação. Como posso ajudar?"
         },
         {
-            "perguntas": ["tem alguem ai?"],
+            "perguntas": ["tem alguem aí?"],
             "resposta":  "Tem sim. Eu sou a Nessa, um robô de atendimento e estou aqui para te auxiliar em seus estudos de programação. Como posso ajudar?"
         },
         {
-            "perguntas": ["oi nessa", "ola nessa", "eai nessa"],
+            "perguntas": ["oi nessa", "olá nessa", "eai nessa"],
             "resposta":  "Olá, tudo bem? Como posso ajudar?"
         }
     ]

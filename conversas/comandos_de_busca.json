@@ -5,11 +5,11 @@
             "resposta": "sobre"
         },
         {
-            "perguntas": ["exercicio", "exercicios", "gostaria de um exercicio", "queria um exercicio", "me traga um exercio", "encontre um exercicio para mim"],
+            "perguntas": ["exercício", "exercícios", "gostaria de um exercício", "queria um exercício", "me traga um exercío", "encontre um exercício para mim"],
             "resposta": "exercicio"
         },
         {
-            "perguntas": ["video", "videos", "gostaria de ver um video", "queria um video", "me traga um video", "encontre um video para mim"],
+            "perguntas": ["vídeo", "vídeos", "gostaria de ver um vídeo", "queria um vídeo", "me traga um vídeo", "encontre um vídeo para mim"],
             "resposta": "video"
         },
         {
