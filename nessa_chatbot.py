@@ -1,6 +1,5 @@
 from difflib import SequenceMatcher
 from chatterbot import ChatBot
-from unidecode import unidecode
 from buscar import *
 from abrir import  *
 
@@ -78,8 +77,7 @@ def iniciar():
 def executar_robo(robo):
     while True:
         entrada = input(">> ")
-        entrada_unidecode = unidecode(entrada)
-        resposta = robo.get_response(entrada_unidecode.lower())
+        resposta = robo.get_response(entrada.lower())
         if resposta.confidence >= CONFIANCA_MINIMA:
             print(selecionar_comando(resposta.text))
         else:
