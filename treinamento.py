@@ -19,7 +19,7 @@ def carregar_de_conversas():
     conversas = []
 
     for arquivos_de_conversas in CONVERSAS:
-        with open(arquivos_de_conversas, "r") as arquivo:
+        with open(arquivos_de_conversas, "r", encoding="utf-8") as arquivo:
             conversas_treinamento = json.load(arquivo)
             conversas.append(conversas_treinamento["conversas"])
 
