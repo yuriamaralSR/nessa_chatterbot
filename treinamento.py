@@ -15,7 +15,7 @@ def iniciar():
 
     return treinador
 
-def carregar_de_conversas():
+def carregar_conversas():
     conversas = []
 
     for arquivos_de_conversas in CONVERSAS:
@@ -40,6 +40,6 @@ def treinar(treinador, conversas):
 if __name__ == "__main__":
     treinador = iniciar()
 
-    conversas = carregar_de_conversas()
+    conversas = carregar_conversas()
     if conversas:
         treinar(treinador, conversas)
